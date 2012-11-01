@@ -1,0 +1,70 @@
+Source: ptux-essential
+Section: admin
+Priority: extra
+Maintainer: Ryan Kuester <rkuester@insymbols.com>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.1
+
+Package: ptux-essential
+Architecture: any
+Description: Essential system packages
+ These are the essential packages on the system, i.e. those which any other
+ package can depend on without explicitly specifying a dependency. These
+ packages supply all of their core functionality even when unconfigured.
+Depends:
+ libtext-wrapi18n-perl,
+ dash,
+ coreutils,
+ debianutils,
+ login,
+ libuuid1,
+ lsb-base,
+ ncurses-base,
+ libpam0g,
+ bsdutils,
+ sensible-utils,
+ ncurses-bin,
+ perl-base,
+ sysv-rc,
+ libsepol1,
+ libpam-modules,
+ tzdata,
+ diffutils,
+ tar,
+ zlib1g,
+ libgcc1,
+ base-files,
+ mount,
+ libtext-iconv-perl,
+ libncurses5,
+ libattr1,
+ sed,
+ e2fslibs,
+ base-passwd,
+ libcomerr2,
+ mawk,
+ grep,
+ passwd,
+ hostname,
+ libacl1,
+ libpam-runtime,
+ libslang2,
+ initscripts,
+ libblkid1,
+ libss2,
+ findutils,
+ xz-utils,
+ e2fsprogs,
+ liblzma2,
+ gzip,
+ dpkg,
+ liblocale-gettext-perl,
+ libc-bin,
+ sysvinit-utils,
+ libselinux1,
+ libc6,
+ bash,
+ util-linux,
+ libstdc++6,
+ libtext-charwidth-perl,
+ gcc-4.4-base

@@ -3,7 +3,7 @@ Section: admin
 Priority: extra
 Maintainer: Ryan Kuester <rkuester@insymbols.com>
 Build-Depends: debhelper (>= 7.0.50~)
-Standards-Version: 3.9.1
+Standards-Version: 3.9.4
 
 Package: ptux-essential
 Architecture: all

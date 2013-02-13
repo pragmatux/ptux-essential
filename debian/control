@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7.0.50~)
 Standards-Version: 3.9.1
 
 Package: ptux-essential
-Architecture: any
+Architecture: all
 Description: Essential system packages
  These are the essential packages on the system, i.e. those which any other
  package can depend on without explicitly specifying a dependency. These

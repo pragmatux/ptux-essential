@@ -1,3 +1,9 @@
+ptux-essential (2.0) unstable; urgency=low
+
+  * Change to essential packages from Wheezy
+
+ -- Ryan Kuester <rkuester@insymbols.com>  Mon, 18 Feb 2013 20:10:47 +0000
+
 ptux-essential (1.0) unstable; urgency=low
 
   * Initial Release.

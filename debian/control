@@ -42,4 +42,5 @@ Depends:
  sed,
  sysvinit-utils,
  tar,
- util-linux
+ util-linux,
+ ${misc:Depends}

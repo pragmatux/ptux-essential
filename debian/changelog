@@ -1,11 +1,11 @@
-ptux-essential (2.0) unstable; urgency=low
+ptux-essential (0) UNRELEASED; urgency=low
 
-  * Change to essential packages from Wheezy
+  NOTE this changelog is generated from git history when the
+  source package is built. Any change made to this file will be
+  overwritten. Do not commit the generated file to git.
 
- -- Ryan Kuester <rkuester@insymbols.com>  Mon, 18 Feb 2013 20:10:47 +0000
+  The package name above is significant and must be maintained,
+  as several debian tools (e.g., from the devscripts package)
+  read the changelog.
 
-ptux-essential (1.0) unstable; urgency=low
-
-  * Initial Release.
-
- -- Ryan Kuester <rkuester@insymbols.com>  Fri, 02 Nov 2012 18:10:39 +0000
+ -- Generated <an@example.com>  Thu, 01 Jan 1970 00:00:00 +0000

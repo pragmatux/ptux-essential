@@ -13,6 +13,11 @@ Description: Essential system packages
  These are the essential packages on the system, i.e. those which any other
  package can depend on without explicitly specifying a dependency. These
  packages supply all of their core functionality even when unconfigured.
+ .
+ A pin at priority -1 (do not install) is added to apt_preferences(5)
+ for Debian archive packages marked essential that are not desired. This
+ prevents 'apt-get dist-upgrade', which installs all the essential
+ packages it finds, from installing them.
 Depends:
  base-files,
  base-passwd,

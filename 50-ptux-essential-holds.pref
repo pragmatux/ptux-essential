@@ -1,0 +1,5 @@
+Explaination: Prevent apt-get dist-upgrade from installing unwanted
+Explaination: essential packages.
+Package: sysvinit
+Pin: version *
+Pin-Priority: -1

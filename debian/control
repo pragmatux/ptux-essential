@@ -4,8 +4,8 @@ Priority: extra
 Maintainer: Ryan Kuester <rkuester@insymbols.com>
 Build-Depends: debhelper (>= 7.0.50~)
 Standards-Version: 3.9.4
-Vcs-Git: http://git.pragmatux.org/ptux-essential.git
-Vcs-Browser: http://git.pragmatux.org/ptux-essential.git
+Vcs-Git: https://github.com/pragmatux/ptux-essential.git
+Vcs-Browser: https://github.com/pragmatux/ptux-essential
 
 Package: ptux-essential
 Architecture: all

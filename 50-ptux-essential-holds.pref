@@ -1,5 +1,11 @@
-Explaination: Prevent apt-get dist-upgrade from installing unwanted
-Explaination: essential packages.
+Explanation: Prevent apt-get dist-upgrade from installing unwanted
+Explanation: essential packages, needed because our definition of
+Explanation: of "essential" differs slightly from mainstream.
 Package: sysvinit
 Pin: version *
 Pin-Priority: -1
+
+Package: init
+Pin: version *
+Pin-Priority: -1
+

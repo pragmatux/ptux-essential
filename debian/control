@@ -1,9 +1,9 @@
 Source: ptux-essential
 Section: admin
-Priority: extra
+Priority: optional
 Maintainer: Ryan Kuester <rkuester@insymbols.com>
-Build-Depends: debhelper (>= 7.0.50~)
-Standards-Version: 3.9.4
+Build-Depends: debhelper
+Standards-Version: 4.3.0
 Vcs-Git: https://github.com/pragmatux/ptux-essential.git
 Vcs-Browser: https://github.com/pragmatux/ptux-essential
 
